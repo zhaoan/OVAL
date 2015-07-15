@@ -1,0 +1,19 @@
+http://www.abbeyworkshop.com/howto/lamp/MySQL_Export_Backup/index.html
+http://stackoverflow.com/questions/82256/how-do-i-use-sudo-to-redirect-output-to-a-location-i-dont-have-permission-to-wri
+
+
+### Executing SQL Statements from a Text File ###
+If you are already running mysql, you can execute an SQL script file using the source command or \. command: 
+mysql> source file_name
+mysql> \. file_name
+
+### TO BACK UP A DATABASE/TABLE ###
+sudo -s
+mysqldump --user=root --password=password dev_annotation_tool > /var/www/html/clas/dev/database/output.sql
+
+### TO RESTORE A DATABASE/TABLE ###
+mysql --user=root --password=password --database=dev_annotation_tool < output.sql
+-or-
+mysql -u root -p --database=dev_annotation_tool < output.sql
+
+** exit from root user when done
