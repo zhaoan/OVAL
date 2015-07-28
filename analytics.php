@@ -1,7 +1,7 @@
 <?php
 
 //Author: An ZHAO
-//Organization: UniSA
+//Organization: LTU, UniSA
 //Date: May - July 2015
 
 require_once(dirname(__FILE__) . '/database/media.php');
