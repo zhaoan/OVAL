@@ -1,2 +1,2 @@
 # OVAL
-Online Video Annotation for Learning, currently supported platform including YouTube and Kaltura.
+Online Video Annotation for Learning, currently supported video platforms including YouTube and Kaltura.
